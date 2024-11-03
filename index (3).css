@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Inicio */
+
+#Portifolio_base {
+    height: 180vh;
+}
+
+/* Inicio da barra */
+
+
+#Barra {
+    background-color: #F0ECEC;
+    height: 120px;
+    display: flex;
+    border-bottom: solid 5px;
+}
+
+#TituloP {
+    display: flex;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50%;
+    height: 114px;
+    align-items: center;
+    justify-content: center;
+}
+
+#ItensP {
+    width: 80%;
+    height: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao_itens{
+    background-color: #F0ECEC;
+    border: none;
+}
+
+.a_itens{
+    color: black;
+    text-decoration: none;
+}
+
+#cor_fundo{
+    background-color: #F0ECEC;
+    border: none;
+}
+
+
+#ul_itens {
+    list-style: none;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ul_itens>li:hover{
+    opacity: 1;
+    transition: opacity 0,5s;
+    border-top: solid black 2px;
+    }
+
+/* Inicio da Imagem */
+
+
+
+#Imagem {
+    height: 80vh;
+    background-image: url(100450-gerenciamento-de-projetos-importancia-como-funciona-e-mais\ 1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+
+/* Fim da Imagem */
+
+/* Inicio da base e quadrado branco*/
+
+#Base_portifolio{
+    height: 190vh;
+    border: solid #F0ECEC;
+    background-color: #F0ECEC;
+}
+    
+#Quemsou_quadrado_branco{
+    height: 130vh;
+    width: 65%;
+    background-color: white;
+    margin-left: 17.5%;
+    margin-top: -5%;
+    text-align: left;
+    border: solid white;
+    position: relative;
+        
+}
+
+#TituloPro{
+    margin-top: 3%;
+    text-align: center;
+    width: 100%;
+   
+}
+
+.Grid_projetos{
+    height: 88%;
+    width: 100%;
+    margin-top: 3%;
+    display: grid;
+grid-template-areas: 'projeto01 projeto02'
+'projeto03 projeto04';
+
+}
+
+.Quadrado{
+width: 100%;
+text-align: center;
+}
+
+#Projeto01{
+grid-area: projeto01;
+background-image: url(image.png);
+background-size: cover;
+}
+
+#Projeto02{
+grid-area: projeto02;
+background-image: url(Rectangle\ 5.png);
+background-size: cover;
+}
+
+#Projeto03{
+grid-area: projeto03;
+background-image: url(imageCotemig.png);
+background-size: cover;
+}
+
+#Projeto04{
+grid-area: projeto04;
+background-image: url(image2.png);
+background-size: cover;
+}
+    
+    /* Fim da base e quadrado branco*/
+
+    #Roda_pe{
+        height: 20vh;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: black;
+    }
